@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    background-color: rgb(17, 170, 181);
+
+}
+#center{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.para{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(228, 241, 228);
+}
+.para p{
+    text-align: center;
+    padding: 25px 0px;
+
+}
+.flex{
+    display: flex;
+    margin: 15px;
+    
+}
+input[type=checkbox]{
+    margin-right: 7px;
+    width: 20px;
+}
+
+.width{
+    height: 10px;
+    width: 85%;
+    margin: 0px 1px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+.green{
+    height: 10px;
+    width: 65%;
+    background-color: rgb(118, 240, 118);
+    border-radius: 10px;
+}
+
+.absolutee p{
+    margin-left: 10px;
+    margin-top: -5;
+    font-weight: bolder;
+
+}
+hr{
+    opacity: 30%;
+}
+
+.tomato{
+    height: 10px;
+    width: 15%;
+    background-color: tomato;
+    border-radius: 10px;
+}
+.orange{
+    height: 10px;
+    width: 35%;
+    background-color: rgb(237, 163, 44);
+    border-radius: 10px;
+}
+
+button{
+    margin: auto;
+    display: block;
+    padding: 10px;
+    width: 140px;
+    background-color: rgb(13, 209, 209);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 300;
+}
